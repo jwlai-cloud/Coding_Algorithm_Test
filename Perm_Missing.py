@@ -4,6 +4,7 @@
 
 def solution(inp: list):
     num = len(inp)
+    # In case input is empty
     if num > 0:
         actual_sum = sum(inp)
         # The max(last) number will be
