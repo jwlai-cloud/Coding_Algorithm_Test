@@ -13,11 +13,9 @@ def solution(inp: list):
         # to get the expect sum, since it is supposed to be consecutive,
         # we can use method like x*(x+1)/2, Gaussian way
         expected_sum = (num + 1) * (min_number + max_number) / 2
-        missing = int(expected_sum - actual_sum)
+        return int(expected_sum - actual_sum)
     else:
-        missing = None
-
-    return missing
+        return None
 
 if __name__ == '__main__':
     print(solution([2, 3, 1, 5]))
