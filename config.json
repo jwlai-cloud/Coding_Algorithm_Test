@@ -1,0 +1,23 @@
+{
+  "title": "PDF Document Translator MCP Server",
+  "emoji": "📄",
+  "colorFrom": "blue",
+  "colorTo": "green",
+  "sdk": "gradio",
+  "sdk_version": "4.44.0",
+  "app_file": "app.py",
+  "pinned": false,
+  "license": "mit",
+  "short_description": "AI-powered PDF document translator with MCP server support",
+  "tags": [
+    "mcp",
+    "translation",
+    "pdf",
+    "gradio",
+    "ai",
+    "vision",
+    "ocr",
+    "multilingual"
+  ]
+}
+
