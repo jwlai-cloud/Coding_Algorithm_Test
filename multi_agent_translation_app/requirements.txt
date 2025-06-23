@@ -1,0 +1,28 @@
+# Google Cloud and ADK dependencies
+google-cloud-storage==2.10.0
+google-cloud-vision==3.4.4
+google-cloud-translate==3.12.1
+google-cloud-aiplatform==1.38.1
+
+# Document processing
+pdf2image==1.16.3
+Pillow==10.1.0
+python-pptx==0.6.22
+
+# Image processing and computer vision
+opencv-python==4.8.1.78
+scikit-image==0.22.0
+numpy==1.24.3
+
+# Agent framework and async processing
+asyncio
+aiohttp==3.9.1
+pydantic==2.5.0
+fastapi==0.104.1
+uvicorn==0.24.0
+
+# Utilities
+python-dotenv==1.0.0
+loguru==0.7.2
+tenacity==8.2.3
+
